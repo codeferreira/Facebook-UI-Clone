@@ -1,22 +1,53 @@
-.App {
-  text-align: center;
+header {
+  background: #4A90E2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
+header img {
+  margin: 20px 42px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header .perfil {
+  margin: 20px 42px;
+  text-decoration: none;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.card {
+  margin: 20px auto;
+  background: #FFF;
+  max-width: 700px;
+  border-radius: 4px;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.user .ownerAvatar {
+  border-radius: 50%;
+  width: 42px;
+  margin-right: 10px;
+}
+
+.user .info {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.user .info strong {
+  font-size: 15px;
+}
+
+.user .info span {
+  font-size: 12px;
 }
