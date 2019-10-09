@@ -20,6 +20,19 @@ function App() {
             <span>04 Jun 2019</span>
           </p>
         </div>
+        <p className="post">Pessoal, alguém sabe se a Rocketseat está contratando?</p>
+        <hr/>
+        <div className="commentContainer">
+          <div className="user">  
+            <img className="ownerAvatar" src="https://avatars2.githubusercontent.com/u/25153766?s=460&v=4" alt="avatar"/>
+          </div>
+          <div className="comment">
+            <p className="text">
+              <strong>José Carlos Ferreira</strong>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis risus lectus, vel cursus sem egestas sit amet. Donec eu mi tristique, placerat lacus non, sollicitudin lacus.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
