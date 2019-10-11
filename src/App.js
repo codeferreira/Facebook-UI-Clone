@@ -27,13 +27,13 @@ function App() {
   ])
 
   return (
-    <div className="App">
+    <>
       <Header />
       {
-        posts.map(post => <Post post={post}/>)
+        posts.map(post => <Post post={post} />)
       }
       
-    </div>
+    </>
   );
 }
 
